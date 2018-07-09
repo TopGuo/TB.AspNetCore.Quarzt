@@ -1,0 +1,73 @@
+﻿@model TB.AspNetCore.Data.Entity.ScheduleInfo
+
+@{
+    ViewData["Title"] = "添加";
+}
+
+<h2>Create</h2>
+
+<h4>ScheduleInfo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StarRunTime" class="control-label"></label>
+                <input asp-for="StarRunTime" class="form-control" />
+                <span asp-validation-for="StarRunTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndRunTime" class="control-label"></label>
+                <input asp-for="EndRunTime" class="form-control" />
+                <span asp-validation-for="EndRunTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NextRunTime" class="control-label"></label>
+                <input asp-for="NextRunTime" class="form-control" />
+                <span asp-validation-for="NextRunTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceCode" class="control-label"></label>
+                <input asp-for="ServiceCode" class="form-control" />
+                <span asp-validation-for="ServiceCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InterfaceCode" class="control-label"></label>
+                <input asp-for="InterfaceCode" class="form-control" />
+                <span asp-validation-for="InterfaceCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TaskDescription" class="control-label"></label>
+                <input asp-for="TaskDescription" class="form-control" />
+                <span asp-validation-for="TaskDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataStatus" class="control-label"></label>
+                <input asp-for="DataStatus" class="form-control" />
+                <span asp-validation-for="DataStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreateAuthr" class="control-label"></label>
+                <input asp-for="CreateAuthr" class="form-control" />
+                <span asp-validation-for="CreateAuthr" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreateTime" class="control-label"></label>
+                <input asp-for="CreateTime" class="form-control" />
+                <span asp-validation-for="CreateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="添加任务" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">返回列表</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

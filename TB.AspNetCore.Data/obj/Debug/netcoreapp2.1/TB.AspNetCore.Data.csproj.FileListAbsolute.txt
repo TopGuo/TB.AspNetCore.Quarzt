@@ -1,0 +1,9 @@
+E:\TB.AspNetCore.Quarzt\TB.AspNetCore.Data\bin\Debug\netcoreapp2.1\TB.AspNetCore.Data.deps.json
+E:\TB.AspNetCore.Quarzt\TB.AspNetCore.Data\bin\Debug\netcoreapp2.1\TB.AspNetCore.Data.dll
+E:\TB.AspNetCore.Quarzt\TB.AspNetCore.Data\bin\Debug\netcoreapp2.1\TB.AspNetCore.Data.pdb
+E:\TB.AspNetCore.Quarzt\TB.AspNetCore.Data\obj\Debug\netcoreapp2.1\TB.AspNetCore.Data.csproj.CoreCompileInputs.cache
+E:\TB.AspNetCore.Quarzt\TB.AspNetCore.Data\obj\Debug\netcoreapp2.1\TB.AspNetCore.Data.AssemblyInfoInputs.cache
+E:\TB.AspNetCore.Quarzt\TB.AspNetCore.Data\obj\Debug\netcoreapp2.1\TB.AspNetCore.Data.AssemblyInfo.cs
+E:\TB.AspNetCore.Quarzt\TB.AspNetCore.Data\obj\Debug\netcoreapp2.1\TB.AspNetCore.Data.dll
+E:\TB.AspNetCore.Quarzt\TB.AspNetCore.Data\obj\Debug\netcoreapp2.1\TB.AspNetCore.Data.pdb
+E:\TB.AspNetCore.Quarzt\TB.AspNetCore.Data\obj\Debug\netcoreapp2.1\TB.AspNetCore.Data.csprojAssemblyReference.cache

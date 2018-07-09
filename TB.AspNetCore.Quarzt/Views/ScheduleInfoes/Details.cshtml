@@ -1,0 +1,108 @@
+﻿@model TB.AspNetCore.Data.Entity.ScheduleInfo
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ScheduleInfo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.JobGroup)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.JobGroup)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.JobName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.JobName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RunStatus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RunStatus)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CromExpress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CromExpress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StarRunTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StarRunTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EndRunTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EndRunTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NextRunTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NextRunTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Token)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Token)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AppId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AppId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ServiceCode)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ServiceCode)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.InterfaceCode)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.InterfaceCode)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TaskDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TaskDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DataStatus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataStatus)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateAuthr)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreateAuthr)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreateTime)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
