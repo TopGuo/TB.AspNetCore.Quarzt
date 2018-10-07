@@ -22,7 +22,7 @@ namespace TB.AspNetCore.Data.Entity
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseMySql("Server=39.107.202.142;Database=ggb_offlinebeta;User=root;Password=Xycat7758;");
+                optionsBuilder.UseMySql("%%%%;");
             }
         }
 
